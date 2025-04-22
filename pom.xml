@@ -6,7 +6,7 @@
 
     <groupId>dev.drawethree.xprison</groupId>
     <artifactId>X-Prison</artifactId>
-    <version>1.12.16</version>
+    <version>1.13.0</version>
 
     <name>XPrison Reloaded</name>
 
@@ -23,6 +23,7 @@
                 <configuration>
                     <source>21</source>
                     <target>21</target>
+
                     <release>11</release>
                 </configuration>
             </plugin>
@@ -71,7 +72,7 @@
         <dependency>
             <groupId>org.spigotmc</groupId>
             <artifactId>spigot-api</artifactId>
-            <version>1.20.4-R0.1-SNAPSHOT</version>
+            <version>1.21.5-R0.1-SNAPSHOT</version>
             <scope>provided</scope>
         </dependency>
         <dependency>
