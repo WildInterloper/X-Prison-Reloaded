@@ -2,7 +2,7 @@ package dev.drawethree.xprison.database.model;
 
 import lombok.AllArgsConstructor;
 import lombok.Getter;
-import org.apache.commons.lang.Validate;
+import org.apache.commons.lang3.Validate;
 import org.bukkit.configuration.file.FileConfiguration;
 
 @Getter

@@ -5,7 +5,7 @@ import dev.drawethree.xprison.enchants.model.XPrisonEnchantment;
 import dev.drawethree.xprison.enchants.repo.EnchantsRepository;
 import dev.drawethree.xprison.utils.player.PlayerUtils;
 import me.lucko.helper.Commands;
-import org.apache.commons.lang.StringUtils;
+import org.apache.commons.lang3.StringUtils;
 import org.bukkit.entity.Player;
 
 import java.util.HashMap;

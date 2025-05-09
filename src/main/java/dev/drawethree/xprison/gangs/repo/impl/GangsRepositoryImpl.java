@@ -7,7 +7,7 @@ import dev.drawethree.xprison.gangs.model.GangInvitation;
 import dev.drawethree.xprison.gangs.repo.GangsRepository;
 import me.lucko.helper.utils.Log;
 import me.lucko.helper.utils.Players;
-import org.apache.commons.lang.StringUtils;
+import org.apache.commons.lang3.StringUtils;
 import org.bukkit.OfflinePlayer;
 
 import java.sql.Connection;

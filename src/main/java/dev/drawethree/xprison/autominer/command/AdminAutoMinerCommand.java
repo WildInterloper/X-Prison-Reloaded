@@ -6,7 +6,7 @@ import dev.drawethree.xprison.utils.player.PlayerUtils;
 import me.lucko.helper.Commands;
 import me.lucko.helper.command.context.CommandContext;
 import me.lucko.helper.utils.Players;
-import org.apache.commons.lang.StringUtils;
+import org.apache.commons.lang3.StringUtils;
 import org.bukkit.command.CommandSender;
 import org.bukkit.entity.Player;
 

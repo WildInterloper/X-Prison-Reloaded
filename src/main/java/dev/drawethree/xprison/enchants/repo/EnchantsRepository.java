@@ -5,7 +5,7 @@ import dev.drawethree.xprison.enchants.XPrisonEnchants;
 import dev.drawethree.xprison.enchants.model.XPrisonEnchantment;
 import dev.drawethree.xprison.enchants.model.impl.*;
 import dev.drawethree.xprison.utils.text.TextUtils;
-import org.apache.commons.lang.Validate;
+import org.apache.commons.lang3.Validate;
 
 import java.util.Collection;
 import java.util.HashMap;

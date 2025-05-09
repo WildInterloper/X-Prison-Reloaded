@@ -27,7 +27,7 @@ import me.lucko.helper.event.filter.EventFilters;
 import me.lucko.helper.scheduler.Task;
 import me.lucko.helper.time.Time;
 import me.lucko.helper.utils.Players;
-import org.apache.commons.lang.StringUtils;
+import org.apache.commons.lang3.StringUtils;
 import org.bukkit.OfflinePlayer;
 import org.bukkit.command.CommandSender;
 import org.bukkit.configuration.ConfigurationSection;
