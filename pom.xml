@@ -23,10 +23,35 @@
                 <configuration>
                     <source>21</source>
                     <target>21</target>
-
                     <release>11</release>
                 </configuration>
             </plugin>
+
+            <plugin>
+                <groupId>org.apache.maven.plugins</groupId>
+                <artifactId>maven-shade-plugin</artifactId>
+                <version>3.5.0</version>
+                <executions>
+                    <execution>
+                        <phase>package</phase>
+                        <goals>
+                            <goal>shade</goal>
+                        </goals>
+                        <configuration>
+                            <relocations>
+                                <relocation>
+                                    <pattern>me.lucko.helper</pattern>
+                                    <shadedPattern>dev.drawethree.xprison.XPrison.shaded.helper</shadedPattern>
+                                </relocation>
+                            </relocations>
+                            <minimizeJar>true</minimizeJar>
+                            <createDependencyReducedPom>false</createDependencyReducedPom>
+                        </configuration>
+                    </execution>
+                </executions>
+            </plugin>
+
+
             <plugin>
                 <groupId>org.mockito</groupId>
                 <artifactId>mockito-inline</artifactId>
@@ -83,7 +108,7 @@
         <dependency>
             <groupId>com.mojang</groupId>
             <artifactId>authlib</artifactId>
-            <version>1.5.26</version>
+            <version>1.5.25</version>
             <scope>provided</scope>
         </dependency>
         <dependency>
@@ -158,8 +183,14 @@
             <groupId>me.lucko</groupId>
             <artifactId>helper</artifactId>
             <version>5.6.14</version>
-            <scope>provided</scope>
+            <scope>compile</scope>
         </dependency>
+        <!--<dependency>
+            <groupId>me.lucko</groupId>
+            <artifactId>helper</artifactId>
+            <version>5.6.14</version>
+            <scope>provided</scope>
+        </dependency>-->
         <dependency>
             <groupId>net.objecthunter</groupId>
             <artifactId>exp4j</artifactId>
