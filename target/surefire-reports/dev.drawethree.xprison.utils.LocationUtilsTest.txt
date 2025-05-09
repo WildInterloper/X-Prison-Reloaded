@@ -1,4 +1,0 @@
--------------------------------------------------------------------------------
-Test set: dev.drawethree.xprison.utils.LocationUtilsTest
--------------------------------------------------------------------------------
-Tests run: 2, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 1.960 s -- in dev.drawethree.xprison.utils.LocationUtilsTest
